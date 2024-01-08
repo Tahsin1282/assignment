@@ -212,6 +212,7 @@
     line-height: normal;
     text-transform: uppercase;
     background-color: darkorange;
+    border-color: darkorange;
     border-radius: 5px;
 }
 
