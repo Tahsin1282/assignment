@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+}
+
+.body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* first banner  */
+
+.banner-image {
+    position: relative;
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+        url('resources/Banner\ Image.png');
+    margin: 10px 140px;
+}
+
+/* First banner text */
+.head-text {
+    position: absolute;
+    top: 177px;
+    left: 670px;
+    bottom: 16px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.head-full {
+    position: absolute;
+    top: 233px;
+    left: 485px;
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 95px;
+    width: 632px;
+}
+
+/* Second banner-Discount */
+
+.discount {
+    position: relative;
+    background-color: rgb(230, 172, 172);
+    top: 120px;
+    left: 400px;
+
+}
+
+.discount-amount {
+    position: absolute;
+    left: 200px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.discount-slogan {
+    position: absolute;
+    top: 155px;
+    left: 200px;
+    color: #F00;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.discount-categories {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    color: #070211;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.new-year-image {
+    position: absolute;
+    top: 310px;
+    width: 802.9px;
+    height: 500px;
+}
+
+
+/* Third Block- Invitation  */
+
+.invitation {
+    position: relative;
+    top: 1050px;
+    left: 140px;
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%),
+        url('resources/Vectorrr.png');
+    width: 1320px;
+    height: 600px;
+    border-radius: 16px;
+    display: flex;
+}
+
+.welcome {
+    position: absolute;
+    left: 125px;
+    top: 125px;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 642px;
+}
+
+.invitation-details {
+    position: absolute;
+    left: 125px;
+    top: 325px;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 697px;
+}
+
+.join-button {
+    position: absolute;
+    left: 200px;
+    top: 500px;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: darkorange;
+    border-radius: 5px;
+}
+
+.new-year {
+    position: absolute;
+    left: 950px;
+    top: 70px;
+    width: 320px;
+    height: 465px;
+}
+
+/* Forth Block-Save the date */
+
+.invitation-date-time {
+    position: relative;
+    top: 1170px;
+    left: 140px;
+}
+
+.background {
+    background-color: antiquewhite;
+    width: 1320px;
+    height: 482px;
+    border: #070211;
+    border-radius: 16px;
+
+}
+
+.invitation-STD {
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 385px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+
+}
+
+.button {
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    background-color: darkorange;
+    border-radius: 5px;
+}
+
+/* fifth block-party */
+
+.fifth-block {
+    position: relative;
+    top: 1300px;
+    left: 140px;
+    display: flex;
+}
+.off{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 15px;
+
+}
+
+.soon {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+}
+
+.details {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+}
+
+.second-column {
+    position: absolute;
+    left: 450px;
+    border-radius: 463px;
+    border: 30px solid white;
+}
+
+.border {
+    position: absolute;
+    top: -45px;
+    left: -45px;
+    width: 400px;
+    height: 400px;
+    border-radius: 463px;
+    border: 30px solid #f00;
+
+}
+
+.third-column {
+    position: absolute;
+    left: 950px;
+}
+
+.year {
+    color: #F00;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Sixth block-offer */
+
+.offer {
+    position: relative;
+    top: 1500px;
+    left: 140px;
+}
+
+.text {
+    position: absolute;
+    left: 550px;
+    color: #070211;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.sale {
+    position: absolute;
+    left: 350px;
+    top: 30px;
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.percent {
+    color: #F00;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.offer p {
+    position: absolute;
+    left: 150px;
+    top: 150px;
+    width: 1068px;
+    text-align: center;
+}
+.image-offer{
+    position: relative;
+}
+
+.red {
+    position: absolute;
+    top: 700px;
+}
+
+.box{
+    position: absolute;
+    top:450px;
+    left: 170px;
+    width: 400px;
+    height: 400px;
+}
+.girl{
+    position: absolute;
+    top: 267px;
+    left:890px;
+}
+
+.pic-discount{
+    position: absolute;
+    top:270px;
+    left: 700px;
+
+}
