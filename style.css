@@ -593,3 +593,27 @@
     height: 1px;
     background: rgba(255, 255, 255, 0.15);
 }
+
+.right {
+    position: absolute;
+    top: 480px;
+    left: 140px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.un {
+    position: absolute;
+    top: 480px;
+    left: 1315px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
