@@ -180,9 +180,9 @@
 
 .background {
     background-color: antiquewhite;
+    /* background-image: linear-gradient(red); */
     width: 1320px;
     height: 482px;
-    border: #070211;
     border-radius: 16px;
 
 }
@@ -224,7 +224,8 @@
     left: 140px;
     display: flex;
 }
-.off{
+
+.off {
     color: #F00;
     font-family: Inter;
     font-size: 24px;
@@ -336,7 +337,8 @@
     width: 1068px;
     text-align: center;
 }
-.image-offer{
+
+.image-offer {
     position: relative;
 }
 
@@ -345,22 +347,72 @@
     top: 700px;
 }
 
-.box{
+.box {
     position: absolute;
-    top:450px;
+    top: 450px;
     left: 170px;
     width: 400px;
     height: 400px;
 }
-.girl{
+
+.girl {
     position: absolute;
     top: 267px;
-    left:890px;
+    left: 890px;
 }
 
-.pic-discount{
+.pic-discount {
     position: absolute;
-    top:270px;
+    top: 270px;
     left: 700px;
 
 }
+
+/* Seventh block-Portfolio */
+
+.portfolio-block {
+    position: relative;
+    top: 2550px;
+    left: 140px;
+}
+
+.gift {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.portfolio {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.portfolio-text {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 20px;
+    width: 896px;
+}
+
+
+.i-1:hover{
+    color: gray;
+}
+
+.i-1{
+    margin-right: 20px;
+    margin-bottom: 20px;   
+}
+
