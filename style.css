@@ -179,8 +179,7 @@
 }
 
 .background {
-    background-color: antiquewhite;
-    /* background-image: linear-gradient(red); */
+    background-color: #FFC0CB;
     width: 1320px;
     height: 482px;
     border-radius: 16px;
@@ -408,12 +407,14 @@
 
 
 .i-1:hover {
-    color: gray;
+    transform: scale(1.3);
+    z-index: 2;
 }
 
 .i-1 {
     margin-right: 20px;
     margin-bottom: 20px;
+    transition: 1s;
 }
 
 /* Eight block-subscribe */
@@ -426,7 +427,7 @@
 }
 
 .back {
-    background-color: antiquewhite;
+    background-color: #FFC0CB;
     /* background-image: linear-gradient(red); */
     width: 1320px;
     height: 620px;
@@ -491,7 +492,7 @@
     top: 465px;
     left: 784px;
     width: 210px;
-    height: 76px;
+    height: 78px;
     color: #FFF;
     text-align: center;
     font-family: Inter;
@@ -583,6 +584,12 @@
 .ic {
     margin-right: 25px;
     margin-bottom: 50px;
+    transition: 1s;
+}
+
+.ic:hover{
+    transform: scale(1.2);
+    z-index: 2;
 }
 
 .line2 {
